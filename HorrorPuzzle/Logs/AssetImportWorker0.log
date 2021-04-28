@@ -1,0 +1,197 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 15808 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52615
+Successfully changed project path to: E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
+E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6192
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001611 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.985 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002234 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.2 MB.
+System memory in use after: 107.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2808.
+Total: 3.935100 ms (FindLiveObjects: 0.718100 ms CreateObjectMapping: 0.313200 ms MarkObjects: 2.769900 ms  DeleteObjects: 0.131500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs
+  artifactKey: Guid(5eac66d4bb4044e40a155b1556b4941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(5eac66d4bb4044e40a155b1556b4941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2c8223dde2a600cd902f940ab76d77') in 0.017292 seconds
+  Import took 0.023047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.960236 seconds.
+  path: Assets/Prefabs/Levels
+  artifactKey: Guid(ca2840e4d4a1b5d449a884fdc2399a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels using Guid(ca2840e4d4a1b5d449a884fdc2399a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0716adb4f6a157034fb9398bf94d8c') in 0.013305 seconds
+  Import took 0.017942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.322474 seconds.
+  path: Assets/Prefabs/Levels/fog.prefab
+  artifactKey: Guid(fa551eb0dd5eb9c458ddd45a511c9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/fog.prefab using Guid(fa551eb0dd5eb9c458ddd45a511c9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a808bdcae6d4f565157450ce75f7d529') in 0.069585 seconds
+  Import took 0.074833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.097179 seconds.
+  path: Assets/Prefabs/Levels/fog_long.prefab
+  artifactKey: Guid(fa551eb0dd5eb9c458ddd45a511c9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/fog_long.prefab using Guid(fa551eb0dd5eb9c458ddd45a511c9ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2481232a0ac40557a7a4ea47d8df54af') in 0.016349 seconds
+  Import took 0.021143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.694379 seconds.
+  path: Assets/Prefabs/Levels/fog (1).prefab
+  artifactKey: Guid(d0c79a832e1949a4798ad84e23f5fda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/fog (1).prefab using Guid(d0c79a832e1949a4798ad84e23f5fda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4b6ee986282e67daeae11efd21a2db') in 0.014055 seconds
+  Import took 0.018373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.841135 seconds.
+  path: Assets/Prefabs/Levels/fog_short.prefab
+  artifactKey: Guid(d0c79a832e1949a4798ad84e23f5fda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/fog_short.prefab using Guid(d0c79a832e1949a4798ad84e23f5fda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ef238f10b6171ac56b815766a92e6f') in 0.014682 seconds
+  Import took 0.019409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.530215 seconds.
+  path: Assets/Textures/Rock001.jpg
+  artifactKey: Guid(5d3ecf282e7fc7745aaa894a2ae25eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock001.jpg using Guid(5d3ecf282e7fc7745aaa894a2ae25eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6bb7d272a3d2cf961bb0ef63a256dd') in 0.064390 seconds
+  Import took 0.069164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Textures/Wall001_normal.png
+  artifactKey: Guid(80044b0656d79c54eadebd23c11dde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wall001_normal.png using Guid(80044b0656d79c54eadebd23c11dde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a8b1d78c8fdb6bb289232fdf8ba509') in 0.029427 seconds
+  Import took 0.034321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Textures/Rock001.jpg
+  artifactKey: Guid(5d3ecf282e7fc7745aaa894a2ae25eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock001.jpg using Guid(5d3ecf282e7fc7745aaa894a2ae25eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6bb7d272a3d2cf961bb0ef63a256dd') in 0.023645 seconds
+  Import took 0.028286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Textures/Wall001.png
+  artifactKey: Guid(4f6ce15a4729ef04eb61c04b90eeacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wall001.png using Guid(4f6ce15a4729ef04eb61c04b90eeacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c61cbbb19c0df8263c8610eca4287f') in 0.026125 seconds
+  Import took 0.030868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Textures/Rock001_normal.jpg
+  artifactKey: Guid(0dfc3df9c28ac704ea41eb7b20526f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock001_normal.jpg using Guid(0dfc3df9c28ac704ea41eb7b20526f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ce9f4a26b779902586badbe9b2ee8d') in 0.033188 seconds
+  Import took 0.037429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003254 seconds.
+  path: Assets/Textures/Wall001.png
+  artifactKey: Guid(4f6ce15a4729ef04eb61c04b90eeacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wall001.png using Guid(4f6ce15a4729ef04eb61c04b90eeacab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c61cbbb19c0df8263c8610eca4287f') in 0.020527 seconds
+  Import took 0.025356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.353953 seconds.
+  path: Assets/Textures/Rock001_normal.jpg
+  artifactKey: Guid(0dfc3df9c28ac704ea41eb7b20526f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Rock001_normal.jpg using Guid(0dfc3df9c28ac704ea41eb7b20526f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8876bf9e1b31a3820104304114ca2f2f') in 0.057335 seconds
+  Import took 0.062309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.386353 seconds.
+  path: Assets/Textures/Wall001_normal.png
+  artifactKey: Guid(80044b0656d79c54eadebd23c11dde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wall001_normal.png using Guid(80044b0656d79c54eadebd23c11dde3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13475bff147008ea899865586b3cdd6c') in 0.035590 seconds
+  Import took 0.040340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.862657 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(4bf9c8daac6ce37419db250061b612a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(4bf9c8daac6ce37419db250061b612a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acb04dc38ae8599e783627ff5796868') in 0.012277 seconds
+  Import took 0.016935 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
