@@ -42,7 +42,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.9264706, g: 0.96957403, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.8800456, b: 0.56037736, a: 1}
   m_Intensity: 2.8
   m_Range: 9.111757
   m_SpotAngle: 164
@@ -118,9 +118,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179298}
-  m_LocalRotation: {x: 0.00000008146034, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.703, y: 3.584035, z: 0.03}
-  m_LocalScale: {x: 0.39396062, y: 0.39396062, z: 0.17698109}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 452254}
   - {fileID: 407714}
@@ -186,6 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452254}
   - component: {fileID: 10854756}
+  - component: {fileID: 1462872058}
   m_Layer: 0
   m_Name: Point light (3)
   m_TagString: Untagged
@@ -218,7 +219,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9264706, g: 0.96957403, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.8913163, b: 0.60754716, a: 1}
   m_Intensity: 0.24
   m_Range: 9.111757
   m_SpotAngle: 164
@@ -269,3 +270,22 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0.1
   m_ShadowAngle: 0
+--- !u!95 &1462872058
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186052}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
