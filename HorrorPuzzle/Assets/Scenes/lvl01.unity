@@ -1257,8 +1257,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_Font: {fileID: 12800000, guid: 710fe9baeae5cf9488b802c73f85cc2b, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -1278,6 +1278,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1099974858}
   m_CullTransparentMesh: 1
+--- !u!82 &1226735353 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1226735353, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+  m_PrefabInstance: {fileID: 2091017529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1377795967
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,7 +1601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -8}
+  m_AnchoredPosition: {x: 0, y: 2}
   m_SizeDelta: {x: 229.8088, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1704677850
@@ -1620,8 +1625,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: e5246a84e5505ed4191edb8f2b33066d, type: 3}
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1632,7 +1637,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Open the door
+  m_Text: Open door
 --- !u!222 &1704677851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2187,26 +2192,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114051214696948948, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
+      propertyPath: Crosshair
+      value: 
+      objectReference: {fileID: 21300000, guid: 196dccf55ca88974c8b78e3e16b1ac2b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e62f5703e5f8d2488a5e1bc8433be41, type: 3}
---- !u!1 &2443132028329627301 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1883019358561373682, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
-  m_PrefabInstance: {fileID: 4307248307967329111}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &2443132028329627302
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2443132028329627301}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.010167335, y: 0.10722709, z: 0.061811388}
-  m_Center: {x: 0, y: 0, z: -0.000000014901161}
 --- !u!1001 &4307248307967329111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2214,10 +2205,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1882920690}
     m_Modifications:
-    - target: {fileID: 5404050844504749408, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
-      propertyPath: m_Animations.Array.size
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 653692829, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
+      propertyPath: ActionText
+      value: 
+      objectReference: {fileID: 1704677848}
+    - target: {fileID: 653692829, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
+      propertyPath: CreakSound
+      value: 
+      objectReference: {fileID: 1226735353}
+    - target: {fileID: 653692829, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
+      propertyPath: ActionDisplay
+      value: 
+      objectReference: {fileID: 1099974858}
     - target: {fileID: 6104713541990836091, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2266,54 +2265,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5404050844504749408, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
+    - target: {fileID: 7220949913861537432, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
+      propertyPath: ActionText
+      value: 
+      objectReference: {fileID: 1704677848}
+    - target: {fileID: 7220949913861537432, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
+      propertyPath: CreakSound
+      value: 
+      objectReference: {fileID: 1226735353}
+    - target: {fileID: 7220949913861537432, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
+      propertyPath: ActionDisplay
+      value: 
+      objectReference: {fileID: 1099974858}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
 --- !u!4 &6565962414117859621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4030213468374641047, guid: 7ffbee9e0e433fa489596e31cafdc5b5, type: 3}
   m_PrefabInstance: {fileID: 7850000430615009458}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7002714782588102292 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6550706100633724355, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
-  m_PrefabInstance: {fileID: 4307248307967329111}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &7002714782588102293
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7002714782588102292}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4068373912626513877, guid: af7abff259e9f474cb8c7acdeb5f63a3, type: 3}
---- !u!1 &7220949913861537430 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6914041599413534145, guid: c3c169815743ad746a9433c6750d4d7b, type: 3}
-  m_PrefabInstance: {fileID: 4307248307967329111}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &7220949913861537431
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7220949913861537430}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: c89c0a7d0d3a2bd41a68684422696726, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: c89c0a7d0d3a2bd41a68684422696726, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1001 &7850000430615009458
 PrefabInstance:
   m_ObjectHideFlags: 0
