@@ -10,6 +10,8 @@ public class DoorOpen : MonoBehaviour
     public GameObject ActionText;
     public GameObject Door;
     public AudioSource CreakSound;
+	public GameObject ExtraCross;
+	public GameObject Crosshair;
 
     void Update()
     {
@@ -20,6 +22,8 @@ public class DoorOpen : MonoBehaviour
 	{
 		if (Distance <= 2)
 		{
+			ExtraCross.SetActive(true);
+			Crosshair.SetActive(false);
 			ActionDisplay.SetActive(true);
 			ActionText.SetActive(true);
 		}
@@ -40,6 +44,8 @@ public class DoorOpen : MonoBehaviour
 	{
 		ActionDisplay.SetActive(false);
 		ActionText.SetActive(false);
+		ExtraCross.SetActive(false);
+		Crosshair.SetActive(true);
 	}
 
 
