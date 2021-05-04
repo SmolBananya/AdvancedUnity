@@ -8,6 +8,8 @@ public class Opening : MonoBehaviour
 	public GameObject Player;
 	public GameObject FadeScreenIn;
 	public GameObject TextBox;
+	public GameObject Camera;
+
 
 	void Start()
 	{
@@ -21,14 +23,14 @@ public class Opening : MonoBehaviour
 		yield return new WaitForSeconds(1.5f);
 		FadeScreenIn.SetActive(false);
 		TextBox.GetComponent<Text>().text = "Where am I?";
-		yield return new WaitForSeconds(1);
-		TextBox.GetComponent<Text>().text = "";
+		yield return new WaitForSeconds(2);
+		TextBox.GetComponent<Text>().text = " ";
 		yield return new WaitForSeconds(1);
 		TextBox.GetComponent<Text>().text = "I must get out of here.";
 		yield return new WaitForSeconds(2);
-		TextBox.GetComponent<Text>().text = "";
+		TextBox.GetComponent<Text>().text = " ";
 		Player.SetActive(true);
 		//ThePlayer.GetComponent<FirstPersonController>().enabled = true;
-
+		Camera.SetActive(false);
 	}
 }

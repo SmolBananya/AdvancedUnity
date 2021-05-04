@@ -1,0 +1,796 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 15808 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61329
+Successfully changed project path to: E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
+E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6192
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001527 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.002 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2373 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.7 MB.
+System memory in use after: 109.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2822.
+Total: 3.083800 ms (FindLiveObjects: 0.343100 ms CreateObjectMapping: 0.117600 ms MarkObjects: 2.504300 ms  DeleteObjects: 0.117200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UI/arrow-symbol.png
+  artifactKey: Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/arrow-symbol.png using Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5318e43e33ed9327425f8ce2b7ffba9a') in 0.143622 seconds
+  Import took 0.148644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942512 seconds.
+  path: Assets/UI/arrow-symbol.png
+  artifactKey: Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/arrow-symbol.png using Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5318e43e33ed9327425f8ce2b7ffba9a') in 0.017802 seconds
+  Import took 0.023293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.807826 seconds.
+  path: Assets/UI/arrow-symbol.png
+  artifactKey: Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/arrow-symbol.png using Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1c4b491fa320fd66d46374e9b79b20') in 0.056321 seconds
+  Import took 0.060527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.017904 seconds.
+  path: Assets/UI/YellowArrow.png
+  artifactKey: Guid(4fa472c2738ba3640b150aa435946ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/YellowArrow.png using Guid(4fa472c2738ba3640b150aa435946ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731bbb5d6ef846dfd1b6d6ae16036e8e') in 0.029179 seconds
+  Import took 0.033981 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2312 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.4 MB.
+System memory in use after: 108.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 2.970800 ms (FindLiveObjects: 0.472900 ms CreateObjectMapping: 0.148100 ms MarkObjects: 2.264300 ms  DeleteObjects: 0.083800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2014.075297 seconds.
+  path: Assets/Prefabs/Levels/WoodenTable
+  artifactKey: Guid(70d3bc0dbb62dfe439bac7b1365481a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/WoodenTable using Guid(70d3bc0dbb62dfe439bac7b1365481a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eca7fe5ed7f8dbf91356b627b3b226f') in 0.015010 seconds
+  Import took 0.019699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001516 seconds.
+  path: Assets/Prefabs/Levels/WoodenTable
+  artifactKey: Guid(70d3bc0dbb62dfe439bac7b1365481a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/WoodenTable using Guid(70d3bc0dbb62dfe439bac7b1365481a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eca7fe5ed7f8dbf91356b627b3b226f') in 0.008915 seconds
+  Import took 0.013106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 324.269899 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty
+  artifactKey: Guid(6f669bdd6a2424b43b24cd43cc8b6f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty using Guid(6f669bdd6a2424b43b24cd43cc8b6f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d713b077824f3fc0b54986c79e8a27') in 0.013195 seconds
+  Import took 0.018148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.590841 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty.blend
+  artifactKey: Guid(976819742742ff5428ad47ea282bd557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty.blend using Guid(976819742742ff5428ad47ea282bd557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78151818d24221836331fa33115b802') in 0.195956 seconds
+  Import took 0.200317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.235432 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty.blend
+  artifactKey: Guid(976819742742ff5428ad47ea282bd557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty.blend using Guid(976819742742ff5428ad47ea282bd557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422d63a105e6ece087732db27c5d3d0a') in 0.033692 seconds
+  Import took 0.038325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.135386 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty.blend
+  artifactKey: Guid(976819742742ff5428ad47ea282bd557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty.blend using Guid(976819742742ff5428ad47ea282bd557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49fe439c542993d24ad1fb16e311ec0') in 0.036107 seconds
+  Import took 0.040498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.987042 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty 1.blend
+  artifactKey: Guid(40bf13ac1d55c864b90d3a229def80bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table_mortis-tenon_old-dirty 1.blend using Guid(40bf13ac1d55c864b90d3a229def80bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ef292ec79449ab0ec9ff5170854cc4') in 0.030485 seconds
+  Import took 0.035338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.766386 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures
+  artifactKey: Guid(4f7b7a30a874f5944956f6222191f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures using Guid(4f7b7a30a874f5944956f6222191f379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2531711c3dcd4182dce5720f0edc609') in 0.012338 seconds
+  Import took 0.017168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.898401 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/Materials
+  artifactKey: Guid(eb979119d99283146bd3c6c950248c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/Materials using Guid(eb979119d99283146bd3c6c950248c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c315aa7063e1cdb56fc0ccbf36a9096b') in 0.011987 seconds
+  Import took 0.016737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/Materials
+  artifactKey: Guid(eb979119d99283146bd3c6c950248c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/Materials using Guid(eb979119d99283146bd3c6c950248c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c315aa7063e1cdb56fc0ccbf36a9096b') in 0.010572 seconds
+  Import took 0.014842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.988660 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_normal.png
+  artifactKey: Guid(58b1ee379a07f1d47bb40906ec4602fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_normal.png using Guid(58b1ee379a07f1d47bb40906ec4602fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e232f87d69afe16487d8a0530cc34d') in 0.033968 seconds
+  Import took 0.038713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012878 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_normal.png
+  artifactKey: Guid(58b1ee379a07f1d47bb40906ec4602fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_normal.png using Guid(58b1ee379a07f1d47bb40906ec4602fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e232f87d69afe16487d8a0530cc34d') in 0.020912 seconds
+  Import took 0.025726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.218871 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_normal.png
+  artifactKey: Guid(58b1ee379a07f1d47bb40906ec4602fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_normal.png using Guid(58b1ee379a07f1d47bb40906ec4602fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd74912e4443c3b8b709249224a3b38b') in 0.025617 seconds
+  Import took 0.030758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.127564 seconds.
+  path: Assets/Prefabs/Levels/WoodenTable/Table.fbx
+  artifactKey: Guid(bc1ef08b60909cc43bcd626d1000a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/WoodenTable/Table.fbx using Guid(bc1ef08b60909cc43bcd626d1000a5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a1c54c80a18d029d03304f924dda5b') in 0.087071 seconds
+  Import took 0.091638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.649207 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_ao.png
+  artifactKey: Guid(46825ea7dd469a84aafb756445d95d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_ao.png using Guid(46825ea7dd469a84aafb756445d95d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b72ca43a20265cdea8c729bd9afe17a') in 0.021857 seconds
+  Import took 0.027053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Prefabs/Levels/WoodenTable/Texture.JPG
+  artifactKey: Guid(9cbb7518ebe859345aef85ceb15c5c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/WoodenTable/Texture.JPG using Guid(9cbb7518ebe859345aef85ceb15c5c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e238abee1b25edeb7204b3bc5dd40c') in 0.032178 seconds
+  Import took 0.036639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile.png
+  artifactKey: Guid(d632a02a7991d1040a179b6d0bde1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile.png using Guid(d632a02a7991d1040a179b6d0bde1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29dbcf47b891eccef006e6a5fc1b5620') in 0.113811 seconds
+  Import took 0.119298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_dif.png
+  artifactKey: Guid(9963f0aaf7b703e479329c2c7e5457a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_dif.png using Guid(9963f0aaf7b703e479329c2c7e5457a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119681c7051d93528191df628c3219a1') in 0.025488 seconds
+  Import took 0.030543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Roughness.png
+  artifactKey: Guid(18e6471fed45d1640bb56736053c8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Roughness.png using Guid(18e6471fed45d1640bb56736053c8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450f390d77ba28d9a0064e1256edf784') in 0.058523 seconds
+  Import took 0.063617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_ao.png
+  artifactKey: Guid(46825ea7dd469a84aafb756445d95d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_ao.png using Guid(46825ea7dd469a84aafb756445d95d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b72ca43a20265cdea8c729bd9afe17a') in 0.026254 seconds
+  Import took 0.030851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Floor/test.png
+  artifactKey: Guid(29761e91e6ace924a9ff3256387b131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Floor/test.png using Guid(29761e91e6ace924a9ff3256387b131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7a806de60f983a801647d64cae94c6') in 0.092397 seconds
+  Import took 0.096703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_spec.png
+  artifactKey: Guid(ed6df1f529078444ca0636783a476986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/textures/table_mt_old-dirty_spec.png using Guid(ed6df1f529078444ca0636783a476986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc523c1786cd7adbd5887408f73bf14e') in 0.023050 seconds
+  Import took 0.027602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Normal.png
+  artifactKey: Guid(223125abf3366174493718a695d8408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Normal.png using Guid(223125abf3366174493718a695d8408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554c60f534d3e96d233143c4ea2e6e0') in 0.111146 seconds
+  Import took 0.115505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002477 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Normal.png
+  artifactKey: Guid(223125abf3366174493718a695d8408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Tile/Tile_Normal.png using Guid(223125abf3366174493718a695d8408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4554c60f534d3e96d233143c4ea2e6e0') in 0.018323 seconds
+  Import took 0.022612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561617 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil_Normal.png
+  artifactKey: Guid(2313ef2bc9800064aabae27e1dc49d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil_Normal.png using Guid(2313ef2bc9800064aabae27e1dc49d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5d72c964a2b723e2365f515e048e63') in 0.068483 seconds
+  Import took 0.073265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Sliding Door Texture.png
+  artifactKey: Guid(ebfdc82a380696f4fa8dad7fed2a8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Sliding Door Texture.png using Guid(ebfdc82a380696f4fa8dad7fed2a8168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00421118cb703dec272ff041eb03dacf') in 0.087998 seconds
+  Import took 0.092362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil_Hi.png
+  artifactKey: Guid(c6f6938231e30ec4da2b22a8b0079cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil_Hi.png using Guid(c6f6938231e30ec4da2b22a8b0079cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27f0d52d4c9c8bc45411eb81046afb2') in 0.064061 seconds
+  Import took 0.068272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Sil/Sil.png
+  artifactKey: Guid(f8c2e7e3feb65384d8677eaf7aed1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Sil/Sil.png using Guid(f8c2e7e3feb65384d8677eaf7aed1b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a0d22c1295379b3e5c2004b0a0619a') in 0.067002 seconds
+  Import took 0.071488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147734 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD/SDDiffuse.png
+  artifactKey: Guid(fe1e9257dd90991488e4a22f4d9afe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/SD/SDDiffuse.png using Guid(fe1e9257dd90991488e4a22f4d9afe6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3f87cc235febfa7367da82785f476a') in 0.076579 seconds
+  Import took 0.080847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Right.png
+  artifactKey: Guid(fa168966dd297e947aa09578115314b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Right.png using Guid(fa168966dd297e947aa09578115314b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2a9847e68df931e9686db47ef7d15c') in 0.102136 seconds
+  Import took 0.106834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Horror Hospital Pack/Models/SD/SDNormal.png
+  artifactKey: Guid(b858c2119a90eea458fa78f3d981b122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/SD/SDNormal.png using Guid(b858c2119a90eea458fa78f3d981b122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec758ed7dff4f2e12331f5a9ed4db0e') in 0.096299 seconds
+  Import took 0.100675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Horror Hospital Pack/Models/OldCup/OldCupNormal.png
+  artifactKey: Guid(b5cb50bfc18aea34baa8196bfdb65919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/OldCup/OldCupNormal.png using Guid(b5cb50bfc18aea34baa8196bfdb65919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d06632c8865808557595a8d303ce2e8') in 0.076454 seconds
+  Import took 0.080532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Horror Hospital Pack/Models/OldCup/OldCupSpecular.png
+  artifactKey: Guid(af3823ea8b6e1c945ae28dacd978e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/OldCup/OldCupSpecular.png using Guid(af3823ea8b6e1c945ae28dacd978e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1c175a5cd44ed8e2c8af47b100ebd2') in 0.057200 seconds
+  Import took 0.061452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Right.png
+  artifactKey: Guid(7694540e586cc2549becec02d850135e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Right.png using Guid(7694540e586cc2549becec02d850135e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c2dac0016e13069556f67a76250b25') in 0.083740 seconds
+  Import took 0.087853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031456 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Roughness.png
+  artifactKey: Guid(70b9f92cfb2158e4f80d1777596df240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Roughness.png using Guid(70b9f92cfb2158e4f80d1777596df240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdace12afb7985c85d26dc77d07c4d4c') in 0.062294 seconds
+  Import took 0.066571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Horror Hospital Pack/Models/OldCup/OldCupDiffuse.png
+  artifactKey: Guid(99fdecc782c602b4f9661ce32a7fd1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/OldCup/OldCupDiffuse.png using Guid(99fdecc782c602b4f9661ce32a7fd1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4f093bd169b344a4bc37dd26b0e08f') in 0.039535 seconds
+  Import took 0.043528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_matallic.png
+  artifactKey: Guid(43258c979502e7a439011b569f02abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_matallic.png using Guid(43258c979502e7a439011b569f02abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db88a03277504a934be907590198b201') in 0.041671 seconds
+  Import took 0.045977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Emission.png
+  artifactKey: Guid(860b5540b51fafa4d9eb5eaceeec3f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex_Emission.png using Guid(860b5540b51fafa4d9eb5eaceeec3f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ada4e97219b3d13191401d3eb08b41b') in 0.028186 seconds
+  Import took 0.032377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.403551 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(76d1c94aa82ee2d4a882e210d8877a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_light.exr using Guid(76d1c94aa82ee2d4a882e210d8877a9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4190e780502ee0f60b723f4400bbc40a') in 0.090332 seconds
+  Import took 0.094615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(68c5f2045c110504dabc5be63e15958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Scene/Demo/Lightmap-0_comp_dir.png using Guid(68c5f2045c110504dabc5be63e15958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be4c18524c21c7aa727df40aa35f250') in 0.052102 seconds
+  Import took 0.056327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/GlassFrosted.png
+  artifactKey: Guid(8bd63cd048f8ac44d96780e96d4bc2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/GlassFrosted.png using Guid(8bd63cd048f8ac44d96780e96d4bc2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4c7df72f57bae037f55577fe441cf7') in 0.087010 seconds
+  Import took 0.091572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Horror Hospital Pack/Models/Doorway/DoorwayNormals.png
+  artifactKey: Guid(733530210e8568b4ab277f069729553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Doorway/DoorwayNormals.png using Guid(733530210e8568b4ab277f069729553f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b749e26deaadff0b4c5d3558f9862f') in 0.149449 seconds
+  Import took 0.154188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Horror Hospital Pack/Models/Doorway/DoorwaySpecular.png
+  artifactKey: Guid(083d5822b817a6f4692f6424297c8347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Doorway/DoorwaySpecular.png using Guid(083d5822b817a6f4692f6424297c8347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d12973e640fa61decbada707345ecb9') in 0.075332 seconds
+  Import took 0.079696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet_Normal.png
+  artifactKey: Guid(d4bda63fdb3591c418fd1614c87bab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet_Normal.png using Guid(d4bda63fdb3591c418fd1614c87bab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57997984c8e221bd1334538ff5ac7c6') in 0.071918 seconds
+  Import took 0.076200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex.png
+  artifactKey: Guid(1684f9736474bf44cbb40da7d0fb68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Props/MicroPropTex.png using Guid(1684f9736474bf44cbb40da7d0fb68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec17df771066ccc1f9484fd1217ea941') in 0.028545 seconds
+  Import took 0.033346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Front.png
+  artifactKey: Guid(f1c99501943a6f24d95eae2bda362506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Front.png using Guid(f1c99501943a6f24d95eae2bda362506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a29c5bc39b616773e457431fc850de') in 0.077604 seconds
+  Import took 0.081948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Bottom.png
+  artifactKey: Guid(8cab0f22a5a3c3541a13984620cdf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Bottom.png using Guid(8cab0f22a5a3c3541a13984620cdf16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1155226794dd211f0a2c9b0e17411c') in 0.069355 seconds
+  Import took 0.073465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp/LampDiffuse.png
+  artifactKey: Guid(fdf5c2c8889832c40bbda772a312a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Lamp/LampDiffuse.png using Guid(fdf5c2c8889832c40bbda772a312a0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da77fb5eafd4c488f437ccb100c92a58') in 0.023787 seconds
+  Import took 0.028023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture Metallic.png
+  artifactKey: Guid(b9f49ca82d77a894a9cdbf7d6387554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture Metallic.png using Guid(b9f49ca82d77a894a9cdbf7d6387554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4305c0caf69d3588cb716771f58e11') in 0.076490 seconds
+  Import took 0.081088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Horror Hospital Pack/Models/Stretcher/FP650_n.png
+  artifactKey: Guid(24f5e013caac7c54e9992e83cea50cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Stretcher/FP650_n.png using Guid(24f5e013caac7c54e9992e83cea50cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26de02d200204b5337805243558b24ea') in 0.134774 seconds
+  Import took 0.138987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete_Normal.png
+  artifactKey: Guid(900042087b9570040a72062f28165a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete_Normal.png using Guid(900042087b9570040a72062f28165a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0521c46f21f0c0b7f25d85551ed5e4fd') in 0.054300 seconds
+  Import took 0.058458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Horror Hospital Pack/Models/Doorway/DoorwayDiffuse.png
+  artifactKey: Guid(a6c6c1ba68c55954a8f12083de14ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Doorway/DoorwayDiffuse.png using Guid(a6c6c1ba68c55954a8f12083de14ef92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d9ff25cee9d3f091217620634d5da4') in 0.072996 seconds
+  Import took 0.077371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Left.png
+  artifactKey: Guid(310d399a99feb04429a5001b64e6db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Left.png using Guid(310d399a99feb04429a5001b64e6db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125fa7d5561b728c93fc80b658b5ae38') in 0.077858 seconds
+  Import took 0.082004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Horror Hospital Pack/Models/Door/Door_d.png
+  artifactKey: Guid(3440f4bbf9bd3984fa1372d6dd6a208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Door/Door_d.png using Guid(3440f4bbf9bd3984fa1372d6dd6a208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa55312a15218aa4a6bff229de216dc') in 0.049790 seconds
+  Import took 0.053961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Horror Hospital Pack/Models/Door/Door_n.png
+  artifactKey: Guid(6fd3bd7fcaa8eb64ebbffedeb96ada92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Door/Door_n.png using Guid(6fd3bd7fcaa8eb64ebbffedeb96ada92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9cd1ac3a39db1338aa7aa124d9db0b') in 0.112575 seconds
+  Import took 0.116924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Front.png
+  artifactKey: Guid(21ec887c7d00abd41b60a52357b12339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Front.png using Guid(21ec887c7d00abd41b60a52357b12339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01c7229901cc74d144bc56b9b730779') in 0.048031 seconds
+  Import took 0.052186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture.png
+  artifactKey: Guid(73f6593216f88df44b7d3e1a27c29482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Doors/Hinge Door Texture.png using Guid(73f6593216f88df44b7d3e1a27c29482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb26e9dc54cfcad501c3a082b4ed55a') in 0.071952 seconds
+  Import took 0.083862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/glassNormal.png
+  artifactKey: Guid(711d58ddf712f7b43845843bf189b67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Glass/glassNormal.png using Guid(711d58ddf712f7b43845843bf189b67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce346da2dff7f55103f2d0f9ae3b1b53') in 0.090237 seconds
+  Import took 0.094409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Horror Hospital Pack/Models/Cabel/CabelsDiffuse.png
+  artifactKey: Guid(30b01e91f7edbc14bbc45d50527543a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Cabel/CabelsDiffuse.png using Guid(30b01e91f7edbc14bbc45d50527543a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f0593a18744c903c81c191c776e6e0') in 0.067838 seconds
+  Import took 0.072648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete.png
+  artifactKey: Guid(7ff68301a810b3349a1d397986a47db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Concrete/Concrete.png using Guid(7ff68301a810b3349a1d397986a47db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a300372c100352ab874df7eeaf0510d') in 0.038028 seconds
+  Import took 0.042259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet.png
+  artifactKey: Guid(2a4483bc4627f8d4c8969253f3eb3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/Carpet/Carpet.png using Guid(2a4483bc4627f8d4c8969253f3eb3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a4bd17a3c052d95415af9675d0b4f6') in 0.037390 seconds
+  Import took 0.041857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Floor/Concrete_n.png
+  artifactKey: Guid(1c3b6485b68544c4d9f243efb74a99dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Floor/Concrete_n.png using Guid(1c3b6485b68544c4d9f243efb74a99dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a499fb393bf5ecb4e7c622a8545b6309') in 0.095205 seconds
+  Import took 0.100179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Horror Hospital Pack/Models/Lamp/LampEmission.png
+  artifactKey: Guid(1be7b7735ea3a9e469d740265b1aedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Lamp/LampEmission.png using Guid(1be7b7735ea3a9e469d740265b1aedc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0d2db9925f44446af735e59631c68f') in 0.027174 seconds
+  Import took 0.031912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Bottom.png
+  artifactKey: Guid(ad326431ca40b2642b5db196b9d39a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Bottom.png using Guid(ad326431ca40b2642b5db196b9d39a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7faf0d00fb3410d23c63c19d1520bda') in 0.104805 seconds
+  Import took 0.109451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Horror Hospital Pack/Models/ElectroPanel/ElectricalPanel_n.png
+  artifactKey: Guid(9543d6f881214074b9b0cc258a032fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/ElectroPanel/ElectricalPanel_n.png using Guid(9543d6f881214074b9b0cc258a032fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bf7345b4b62ff5488bc2e9de878861') in 0.092763 seconds
+  Import took 0.096862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Left.png
+  artifactKey: Guid(f11ec44421355f6408330f1740dacaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Left.png using Guid(f11ec44421355f6408330f1740dacaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c674062d9ccbef9ea7b732b8c2afe397') in 0.068462 seconds
+  Import took 0.072598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Horror Hospital Pack/Models/Stretcher/FP650_Diffuse.png
+  artifactKey: Guid(f15bd22eba92b2c48b648c1a25950575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Stretcher/FP650_Diffuse.png using Guid(f15bd22eba92b2c48b648c1a25950575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f48c27e6229c2a4557e5fd5121696f') in 0.156610 seconds
+  Import took 0.160816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Floor/Concrete.png
+  artifactKey: Guid(f5bd2019bdaa6eb49ad38a6d00e1fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Floor/Concrete.png using Guid(f5bd2019bdaa6eb49ad38a6d00e1fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1c33eade87d9070bf1d6bf6d5ef331') in 0.044569 seconds
+  Import took 0.048798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008046 seconds.
+  path: Assets/Horror Hospital Pack/Materials/Floor/Concrete.png
+  artifactKey: Guid(f5bd2019bdaa6eb49ad38a6d00e1fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Materials/Floor/Concrete.png using Guid(f5bd2019bdaa6eb49ad38a6d00e1fd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1c33eade87d9070bf1d6bf6d5ef331') in 0.016453 seconds
+  Import took 0.021229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480336 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad/Bad_d.png
+  artifactKey: Guid(14486d50ab6363d45941a26fe7d85a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Bad/Bad_d.png using Guid(14486d50ab6363d45941a26fe7d85a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf2a476ddd34fd5c14b0a04acaf42e3') in 0.061889 seconds
+  Import took 0.066700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Back.png
+  artifactKey: Guid(949a695d97850f642b1a0039b766e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/NightSky/Back.png using Guid(949a695d97850f642b1a0039b766e6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd557767b476975a6de656f5aee42fb89') in 0.049319 seconds
+  Import took 0.053666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Horror Hospital Pack/Models/Bad/Bad_n.png
+  artifactKey: Guid(a9062d1e8d1601a4ea69e400ec739c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Hospital Pack/Models/Bad/Bad_n.png using Guid(a9062d1e8d1601a4ea69e400ec739c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a05fde691e2724ff12be40179506ee') in 0.106441 seconds
+  Import took 0.110510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Back.png
+  artifactKey: Guid(8de32711a8f4df5448e14b373ffe990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FirstPersion AIO Pack/DemoScene/Working Textures/DaySky/Back.png using Guid(8de32711a8f4df5448e14b373ffe990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216de1c3225f26f3025b8296ef830c6f') in 0.076447 seconds
+  Import took 0.080625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 182.973287 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table.prefab
+  artifactKey: Guid(157838a18ace2db428ccc1984159e0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table.prefab using Guid(157838a18ace2db428ccc1984159e0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f0ee39256556d8eb11880c2b505645') in 0.030578 seconds
+  Import took 0.034999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004548 seconds.
+  path: Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table.prefab
+  artifactKey: Guid(157838a18ace2db428ccc1984159e0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/table_mortis-tenon_old-dirty/table.prefab using Guid(157838a18ace2db428ccc1984159e0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f0ee39256556d8eb11880c2b505645') in 0.022221 seconds
+  Import took 0.026866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 977.706995 seconds.
+  path: Assets/Prefabs/Levels/Doorway.prefab
+  artifactKey: Guid(c3672f016c30f6c4ba1819b879703582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Levels/Doorway.prefab using Guid(c3672f016c30f6c4ba1819b879703582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb139fb09145712cdfde34714391837') in 0.073162 seconds
+  Import took 0.078510 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2312 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2882.
+Total: 3.469600 ms (FindLiveObjects: 0.443800 ms CreateObjectMapping: 0.110700 ms MarkObjects: 2.819300 ms  DeleteObjects: 0.093500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2312 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2885.
+Total: 2.827200 ms (FindLiveObjects: 0.323100 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.343100 ms  DeleteObjects: 0.087000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 850.404047 seconds.
+  path: Assets/UI/arrow-symbol.png
+  artifactKey: Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/arrow-symbol.png using Guid(8bbf3334c1d126345811c12b29281d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438d42c4aa1233ab4a5035b2bc21c569') in 0.058505 seconds
+  Import took 0.063933 seconds .
+

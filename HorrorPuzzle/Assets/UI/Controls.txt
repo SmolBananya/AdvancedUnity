@@ -1,0 +1,6 @@
+Use -> E
+Move -> WASD
+Look around -> Mouse
+Shoot -> Left Mouse
+Sprint -> Left Shift
+Crouch -> Hold left CTRL
