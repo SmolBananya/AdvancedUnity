@@ -58,16 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Sequenses\Opening.cs" />
     <Compile Include="Assets\Scripts\Managers\Singleton.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\PlayerCasting.cs" />
-    <Compile Include="Assets\FirstPersion AIO Pack\FirstPersonAIO\FirstPersonAIO.cs" />
-    <Compile Include="Assets\Scripts\Level Scripts\LampAnimations.cs" />
-    <Compile Include="Assets\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
-    <Compile Include="Assets\Scripts\Level Scripts\DoorOpen.cs" />
     <Compile Include="Assets\Scripts\Sequenses\BFirstTrigger.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\LampAnimations.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\DoorOpen.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\PickUpPistol.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\FirstPersion AIO Pack\DemoScene\Working Materials\GlassBumpedDistort.shader" />
-     <None Include="Assets\FirstPersion AIO Pack\README.txt" />
      <None Include="Assets\UI\Controls.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\2020.3.0f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
@@ -644,6 +641,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D2F4B0A4-1B36-FA08-9D5D-5FAA5689AB01}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
       <Project>{789C2391-F2A6-7566-680C-24261E07585B}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders</Name>
