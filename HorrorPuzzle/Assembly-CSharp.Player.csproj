@@ -56,15 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Level Scripts\FlameAnimations.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\Sequenses\Opening.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\FirePistol.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\ZombieDeath.cs" />
     <Compile Include="Assets\Scripts\Managers\Singleton.cs" />
     <Compile Include="Assets\Scripts\Sequenses\BFirstTrigger.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\LampAnimations.cs" />
-    <Compile Include="Assets\Scripts\Level Scripts\DoorOpen.cs" />
-    <Compile Include="Assets\Scripts\Level Scripts\FlameAnimations.cs" />
     <Compile Include="Assets\Scripts\Sequenses\JumpTrigger.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\DoorOpen.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\GlobalHealth.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Prefabs\Monster\Poses\README.txt" />

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 15808 MB
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 15808 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60786
+61971
 Successfully changed project path to: E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
 E:/careeria/Advanced Unity Development/AdvancedUnity/HorrorPuzzle
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 141.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 142.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,560 +36,136 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003496 seconds.
+Registered in 0.003842 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 153.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 176.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.099 seconds
+- Completed reload, in  8.617 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003900 seconds.
+Registered in 0.004191 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 168.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 230.09 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.877 seconds
+- Completed reload, in  3.199 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2375 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.0 MB.
-System memory in use after: 181.2 MB.
+Unloading 2382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.4 MB.
+System memory in use after: 183.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2826.
-Total: 5.219100 ms (FindLiveObjects: 0.560200 ms CreateObjectMapping: 0.159200 ms MarkObjects: 4.267600 ms  DeleteObjects: 0.229200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Levels/Doorway (1).prefab
-  artifactKey: Guid(17137752d8883ad4380118304155ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/Doorway (1).prefab using Guid(17137752d8883ad4380118304155ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd2e04d3ce510a41fb1d4fcafc76e13') in 0.370395 seconds
-  Import took 0.381510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.378893 seconds.
-  path: Assets/Prefabs/Levels/DoorwayNoDoor.prefab
-  artifactKey: Guid(17137752d8883ad4380118304155ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/DoorwayNoDoor.prefab using Guid(17137752d8883ad4380118304155ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1965a10f353f1a84bca67697d430ec2c') in 0.100702 seconds
-  Import took 0.117801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.746761 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doors
-  artifactKey: Guid(299b8d48894ce6b45aba8fd758f6060f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doors using Guid(299b8d48894ce6b45aba8fd758f6060f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed331709b93f358039a9eb1297a6fb79') in 0.040187 seconds
-  Import took 0.052186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 176.810408 seconds.
-  path: Assets/Prefabs/Levels/Door.prefab
-  artifactKey: Guid(c3c169815743ad746a9433c6750d4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/Door.prefab using Guid(c3c169815743ad746a9433c6750d4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb44735303460b9da8b0ab14bf6d7c5d') in 0.129661 seconds
-  Import took 0.143332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.113034 seconds.
-  path: Assets/Prefabs/Levels/DoorwayNoDoor.prefab
-  artifactKey: Guid(17137752d8883ad4380118304155ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/DoorwayNoDoor.prefab using Guid(17137752d8883ad4380118304155ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eff1b60acd7ed2397cdca22f93096f7') in 0.061852 seconds
-  Import took 0.095526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 586.602885 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Decals/Hay_C.prefab
-  artifactKey: Guid(277581e3138a61f46878277a7d68a675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Decals/Hay_C.prefab using Guid(277581e3138a61f46878277a7d68a675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520cec186eedb1bca37560ec546f54ab') in 0.087928 seconds
-  Import took 0.103045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002555 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Decals/Hay_C.prefab
-  artifactKey: Guid(277581e3138a61f46878277a7d68a675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Decals/Hay_C.prefab using Guid(277581e3138a61f46878277a7d68a675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520cec186eedb1bca37560ec546f54ab') in 0.061990 seconds
-  Import took 0.076973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.752834 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Decals/Grunge_C.prefab
-  artifactKey: Guid(10bc6d9fae2413142a4f49825af0487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Decals/Grunge_C.prefab using Guid(10bc6d9fae2413142a4f49825af0487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeb9d6920fba6964d7e583a502f8c7b') in 0.204526 seconds
-  Import took 0.216915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.251764 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_A.prefab
-  artifactKey: Guid(10f6c197dbc5b3d4bb207a1bd7921eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_A.prefab using Guid(10f6c197dbc5b3d4bb207a1bd7921eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba461ffc58b99ffe5478c16ae9c6755') in 0.446674 seconds
-  Import took 0.458052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.511543 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_B.prefab
-  artifactKey: Guid(d82e2c8f3a0a74d47b5cc1efbc1b13c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_B.prefab using Guid(d82e2c8f3a0a74d47b5cc1efbc1b13c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36880de3d21fa12e6bbf09ea48e3ef6') in 0.198904 seconds
-  Import took 0.213770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003413 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_B.prefab
-  artifactKey: Guid(d82e2c8f3a0a74d47b5cc1efbc1b13c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_B.prefab using Guid(d82e2c8f3a0a74d47b5cc1efbc1b13c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36880de3d21fa12e6bbf09ea48e3ef6') in 0.091464 seconds
-  Import took 0.103695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.575960 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_C.prefab
-  artifactKey: Guid(3faf544bbf9cefb4da44238798338db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_C.prefab using Guid(3faf544bbf9cefb4da44238798338db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb194fa4a2b0d5d8517976bbcc8f901') in 0.108372 seconds
-  Import took 0.120484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011974 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_C.prefab
-  artifactKey: Guid(3faf544bbf9cefb4da44238798338db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Doorways/Doorway_C.prefab using Guid(3faf544bbf9cefb4da44238798338db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb194fa4a2b0d5d8517976bbcc8f901') in 0.059785 seconds
-  Import took 0.070265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.661027 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_A.prefab
-  artifactKey: Guid(b2f96746c6005c64888263f64272a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_A.prefab using Guid(b2f96746c6005c64888263f64272a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8c6caca53c96c262f520dcd05780cb') in 0.068250 seconds
-  Import took 0.085578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011021 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_A.prefab
-  artifactKey: Guid(b2f96746c6005c64888263f64272a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_A.prefab using Guid(b2f96746c6005c64888263f64272a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8c6caca53c96c262f520dcd05780cb') in 0.052829 seconds
-  Import took 0.065372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.766865 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_B.prefab
-  artifactKey: Guid(c8fcb67cb3d648b4b87d500ece16b15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_B.prefab using Guid(c8fcb67cb3d648b4b87d500ece16b15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328b107573acaa3492bb5dd843834d3e') in 0.203082 seconds
-  Import took 0.215213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.255489 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_C.prefab
-  artifactKey: Guid(f5507bdcafa59ee4796ef124f9fa7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Floors/Floor_C.prefab using Guid(f5507bdcafa59ee4796ef124f9fa7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77930b1fe29cb856e01c0f60af663d6') in 0.089656 seconds
-  Import took 0.101477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.516595 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Arch_Gate.prefab
-  artifactKey: Guid(e8509d0bc33ac9c4088232205ccc9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Arch_Gate.prefab using Guid(e8509d0bc33ac9c4088232205ccc9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf40353988ab37b7b788b3cb61ee1fac') in 0.083763 seconds
-  Import took 0.094548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003160 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Arch_Gate.prefab
-  artifactKey: Guid(e8509d0bc33ac9c4088232205ccc9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Arch_Gate.prefab using Guid(e8509d0bc33ac9c4088232205ccc9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf40353988ab37b7b788b3cb61ee1fac') in 0.043455 seconds
-  Import took 0.053676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.866383 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Candles.prefab
-  artifactKey: Guid(9399e3d779d8660489d87c9559841721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Candles.prefab using Guid(9399e3d779d8660489d87c9559841721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13d42e07ca9f650f2d37d8f72b265cf') in 0.649995 seconds
-  Import took 0.660597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018507 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Candles.prefab
-  artifactKey: Guid(9399e3d779d8660489d87c9559841721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Prefabs/Props/Candles.prefab using Guid(9399e3d779d8660489d87c9559841721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13d42e07ca9f650f2d37d8f72b265cf') in 0.046187 seconds
-  Import took 0.058222 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2841.
+Total: 5.604500 ms (FindLiveObjects: 0.511900 ms CreateObjectMapping: 0.169900 ms MarkObjects: 4.637100 ms  DeleteObjects: 0.281800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004264 seconds.
+Registered in 0.004441 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.490 seconds
+- Completed reload, in  2.713 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2314 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.8 MB.
-System memory in use after: 180.0 MB.
+Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.1 MB.
+System memory in use after: 179.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2838.
-Total: 6.384400 ms (FindLiveObjects: 0.503700 ms CreateObjectMapping: 0.170100 ms MarkObjects: 5.533600 ms  DeleteObjects: 0.173000 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2844.
+Total: 6.651400 ms (FindLiveObjects: 0.604800 ms CreateObjectMapping: 0.276600 ms MarkObjects: 5.556800 ms  DeleteObjects: 0.209800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 719.334597 seconds.
-  path: Assets/Prefabs/Guns/pistol/handpistol.prefab
-  artifactKey: Guid(8c5104ffdf0f64f43a6cd11e5eb9ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Guns/pistol/handpistol.prefab using Guid(8c5104ffdf0f64f43a6cd11e5eb9ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ffafc058e70ff32942dea686eb6f5e') in 0.196323 seconds
-  Import took 0.210530 seconds .
+  path: Assets/Scripts/Enemy Scripts/ZombieDeath.cs
+  artifactKey: Guid(11242838ae96d3d459e0fee1ebf287c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy Scripts/ZombieDeath.cs using Guid(11242838ae96d3d459e0fee1ebf287c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e68d6ca62cbe0bd30d2365628483615') in 0.164573 seconds
+  Import took 0.176665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.931755 seconds.
+  path: Assets/Scripts/Enemy Scripts
+  artifactKey: Guid(7eeae92adb6bac941a307e6576c3bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy Scripts using Guid(7eeae92adb6bac941a307e6576c3bd5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b476f5bdc10b491ea7d0163625eb9e89') in 0.042003 seconds
+  Import took 0.054337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.251039 seconds.
+  path: Assets/Scripts/Enemy Scripts/EnemyAI.cs
+  artifactKey: Guid(7c3d3591bce6cff45b34d0de222e7f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy Scripts/EnemyAI.cs using Guid(7c3d3591bce6cff45b34d0de222e7f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5762494e81f5ab1d9f1608ed5ecb1336') in 0.019005 seconds
+  Import took 0.027846 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005229 seconds.
+Registered in 0.003854 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.648 seconds
+- Completed reload, in  2.880 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2314 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 179.9 MB.
-System memory in use after: 180.1 MB.
+Unloading 2322 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.1 MB.
+System memory in use after: 179.3 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2842.
-Total: 7.918000 ms (FindLiveObjects: 0.913000 ms CreateObjectMapping: 0.451200 ms MarkObjects: 6.355700 ms  DeleteObjects: 0.194600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 970.358065 seconds.
-  path: Assets/Prefabs/Levels/Door_C.prefab
-  artifactKey: Guid(787a77dcad1c7554398e398165ec1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/Door_C.prefab using Guid(787a77dcad1c7554398e398165ec1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e839705938aa70e97780888b8577ad') in 0.265330 seconds
-  Import took 0.275713 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2848.
+Total: 5.919600 ms (FindLiveObjects: 0.805200 ms CreateObjectMapping: 0.355900 ms MarkObjects: 4.499600 ms  DeleteObjects: 0.255800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.127768 seconds.
-  path: Assets/Prefabs/Levels/CellDoor.prefab
-  artifactKey: Guid(787a77dcad1c7554398e398165ec1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/CellDoor.prefab using Guid(787a77dcad1c7554398e398165ec1614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46905fd93863f246397d851199c30a0b') in 0.077991 seconds
-  Import took 0.090345 seconds .
+  Time since last request: 711.690151 seconds.
+  path: Assets/Plugins/LB3D/CrabMonster/Models/Armature_Attack_1.anim
+  artifactKey: Guid(5b053bc5fc0ff9e4da74c04556469327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LB3D/CrabMonster/Models/Armature_Attack_1.anim using Guid(5b053bc5fc0ff9e4da74c04556469327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cb5427ed74d00c58333621c80bc773') in 0.116692 seconds
+  Import took 0.126574 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 576.605144 seconds.
-  path: Assets/Animations/Door/JumpDoorAnim.anim
-  artifactKey: Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Door/JumpDoorAnim.anim using Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a8d65eec37c26a7da463a56542e1ee') in 0.029916 seconds
-  Import took 0.039039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001346 seconds.
-  path: Assets/Animations/Door/JumpDoorAnim.anim
-  artifactKey: Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Door/JumpDoorAnim.anim using Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a8d65eec37c26a7da463a56542e1ee') in 0.017865 seconds
-  Import took 0.028696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.496644 seconds.
-  path: Assets/Animations/Door/JumpDoorAnim.anim
-  artifactKey: Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Door/JumpDoorAnim.anim using Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5418d7d7d92568b7fb260a03b651646') in 0.018491 seconds
-  Import took 0.030259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019648 seconds.
-  path: Assets/Animations/Door/JumpDoorAnim.anim
-  artifactKey: Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Door/JumpDoorAnim.anim using Guid(287631f600a793c40b916ac12b43c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5418d7d7d92568b7fb260a03b651646') in 0.013776 seconds
-  Import took 0.024823 seconds .
+  Time since last request: 11.359125 seconds.
+  path: Assets/Plugins/LB3D/CrabMonster/Models/Attack.anim
+  artifactKey: Guid(5b053bc5fc0ff9e4da74c04556469327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LB3D/CrabMonster/Models/Attack.anim using Guid(5b053bc5fc0ff9e4da74c04556469327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e12dadbd6067cdb5d68e658f859e9e') in 0.096140 seconds
+  Import took 0.108023 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004295 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.561 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2315 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.0 MB.
-System memory in use after: 180.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2847.
-Total: 5.590300 ms (FindLiveObjects: 0.578500 ms CreateObjectMapping: 0.192600 ms MarkObjects: 4.638500 ms  DeleteObjects: 0.176900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1156.840432 seconds.
-  path: Assets/Materials/fire001.mat
-  artifactKey: Guid(96b38a79da0af4b43b0d374b5209174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/fire001.mat using Guid(96b38a79da0af4b43b0d374b5209174e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36cbedf2d134cb05c424fe69c54c0e4') in 0.281302 seconds
-  Import took 0.293821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 270.968695 seconds.
-  path: Assets/Prefabs/Levels/Torch 1.prefab
-  artifactKey: Guid(c8f6d2c5fec67a24f91bb7ac504905d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/Torch 1.prefab using Guid(c8f6d2c5fec67a24f91bb7ac504905d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58807ca813c17990f57cd903d77a3f79') in 0.084620 seconds
-  Import took 0.095946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.575315 seconds.
-  path: Assets/Prefabs/Levels/Lamp Blinking.prefab
-  artifactKey: Guid(7ffbee9e0e433fa489596e31cafdc5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/Lamp Blinking.prefab using Guid(7ffbee9e0e433fa489596e31cafdc5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3448e00fcbc4d7d6ac182fcf9b2a8f') in 0.080553 seconds
-  Import took 0.091872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 661.792714 seconds.
-  path: Assets/Prefabs/Levels/Flame.prefab
-  artifactKey: Guid(a195d680c7b896347b9b8a898ddb518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Levels/Flame.prefab using Guid(a195d680c7b896347b9b8a898ddb518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4038c2d44933f79f6a96731169af9bc5') in 0.029470 seconds
-  Import took 0.042536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.838278 seconds.
-  path: Assets/Scripts/Level Scripts/FlameAnimations.cs
-  artifactKey: Guid(5db7a2c3c7f73004d8e8d836250b09d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Level Scripts/FlameAnimations.cs using Guid(5db7a2c3c7f73004d8e8d836250b09d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8a87af6fe48d29ba032b54c1a2c68') in 0.066494 seconds
-  Import took 0.077412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 380.293665 seconds.
-  path: Assets/Plugins/Decrepit Dungeon LITE/Materials/Flame.mat
-  artifactKey: Guid(e3aca7f17b83630409550de9dc736e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Decrepit Dungeon LITE/Materials/Flame.mat using Guid(e3aca7f17b83630409550de9dc736e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bae9c1cd6a7597558659d80b81aa47') in 0.077771 seconds
-  Import took 0.090211 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004354 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.601 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2315 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.3 MB.
-System memory in use after: 180.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2884.
-Total: 5.878600 ms (FindLiveObjects: 0.496300 ms CreateObjectMapping: 0.368900 ms MarkObjects: 4.808800 ms  DeleteObjects: 0.200700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 689.218254 seconds.
-  path: Assets/Scripts/Sequenses/JumpTrigger.cs
-  artifactKey: Guid(58a44ddbd7eec3249be254d86383442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Sequenses/JumpTrigger.cs using Guid(58a44ddbd7eec3249be254d86383442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55ae0577b6128414319fd4e39147207') in 0.047138 seconds
-  Import took 0.063487 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005588 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.421 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2316 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.2 MB.
-System memory in use after: 180.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2888.
-Total: 17.462100 ms (FindLiveObjects: 1.045400 ms CreateObjectMapping: 0.500000 ms MarkObjects: 15.662400 ms  DeleteObjects: 0.249700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.347658 seconds.
-  path: Assets/Audio/Music
-  artifactKey: Guid(953f6494041fc1d4f94c754e1cda71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music using Guid(953f6494041fc1d4f94c754e1cda71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1751df1604c3d48625a6a29d2ce5492f') in 0.029761 seconds
-  Import took 0.042566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009238 seconds.
-  path: Assets/Audio/Music
-  artifactKey: Guid(953f6494041fc1d4f94c754e1cda71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Music using Guid(953f6494041fc1d4f94c754e1cda71d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1751df1604c3d48625a6a29d2ce5492f') in 0.013874 seconds
-  Import took 0.024832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 510.593947 seconds.
-  path: Assets/Plugins/Zombie/Animations
-  artifactKey: Guid(f3eea9b1c7ba62247acf479d69835474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations using Guid(f3eea9b1c7ba62247acf479d69835474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5b97c958a867e5e7bcc1bcb10d1642') in 0.037904 seconds
-  Import took 0.048995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.712242 seconds.
-  path: Assets/Plugins/Zombie/Animations/Z_Walk.anim
-  artifactKey: Guid(77c3de37a980599489d5f7f009c186fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Z_Walk.anim using Guid(77c3de37a980599489d5f7f009c186fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26cf44247d08c83f9f465f3481dae45') in 0.078657 seconds
-  Import took 0.091643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 149.532069 seconds.
-  path: Assets/Prefabs/Enemies
-  artifactKey: Guid(4fdcc8c07f0306746b102cd876e3b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies using Guid(4fdcc8c07f0306746b102cd876e3b2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3abd5ae64ce959d56c65f4667638dae') in 0.020225 seconds
-  Import took 0.031331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.647110 seconds.
-  path: Assets/Prefabs/Enemies/Zombie1.prefab
-  artifactKey: Guid(26e3a0c2a6552804988c82d09fea4517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Zombie1.prefab using Guid(26e3a0c2a6552804988c82d09fea4517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76347a6dcd47b509d8aa2539e6aceeb') in 0.243344 seconds
-  Import took 0.253197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.737032 seconds.
-  path: Assets/Plugins/Zombie/Animations/Z_Walk 1.anim
-  artifactKey: Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Z_Walk 1.anim using Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168e3fe4f4df2fac4790aa130561b047') in 0.045717 seconds
-  Import took 0.055856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001838 seconds.
-  path: Assets/Plugins/Zombie/Animations/Z_Walk 1.anim
-  artifactKey: Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Z_Walk 1.anim using Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168e3fe4f4df2fac4790aa130561b047') in 0.034421 seconds
-  Import took 0.045460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.854490 seconds.
-  path: Assets/Plugins/Zombie/Animations/Walk.anim
-  artifactKey: Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Walk.anim using Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc497c11e2bda2ff694208913f658f8') in 0.051460 seconds
-  Import took 0.062700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009508 seconds.
-  path: Assets/Plugins/Zombie/Animations/Walk.anim
-  artifactKey: Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Walk.anim using Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc497c11e2bda2ff694208913f658f8') in 0.036372 seconds
-  Import took 0.046829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.565900 seconds.
-  path: Assets/Plugins/Zombie/Animations/Z_Walk1.anim
-  artifactKey: Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Z_Walk1.anim using Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1404c53ea7745e06765a61115435ee') in 0.109808 seconds
-  Import took 0.120225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 385.282566 seconds.
-  path: Assets/Plugins/Zombie/Prefabs/Zombie1.prefab
-  artifactKey: Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Prefabs/Zombie1.prefab using Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b80c3e26e110b904678ed3c783cdb3') in 0.114427 seconds
-  Import took 0.126107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.435797 seconds.
-  path: Assets/Plugins/Zombie/Animations/Z_Walk1_InPlace.anim
-  artifactKey: Guid(a0389bcc17a6335409898ddb374c1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Z_Walk1_InPlace.anim using Guid(a0389bcc17a6335409898ddb374c1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6fdb7f74179c08426a7923b03ebee2') in 0.050239 seconds
-  Import took 0.059920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.762226 seconds.
-  path: Assets/Plugins/Zombie/Animations/Z_Walk_InPlace.anim
-  artifactKey: Guid(37e6af8636979e04086967e3bd667606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Z_Walk_InPlace.anim using Guid(37e6af8636979e04086967e3bd667606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5066ac65dd87c0f413e8a7941808e118') in 0.046293 seconds
-  Import took 0.059113 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005171 seconds.
+Registered in 0.003810 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
@@ -598,280 +174,200 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.512 seconds
+- Completed reload, in  2.864 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2322 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.2 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2851.
+Total: 6.021500 ms (FindLiveObjects: 0.890100 ms CreateObjectMapping: 0.304400 ms MarkObjects: 4.522100 ms  DeleteObjects: 0.300900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.076079 seconds.
+  path: Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/Prefabs/thc6.prefab
+  artifactKey: Guid(332254905319da1469830bd3e8725b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/Prefabs/thc6.prefab using Guid(332254905319da1469830bd3e8725b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d7bd753b9e403127cefffc5bb1c8f0') in 0.583568 seconds
+  Import took 0.599292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.169155 seconds.
+  path: Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/arach_armature_attack1.anim
+  artifactKey: Guid(2ec635d550c3d284f8459a1e0f91d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/arach_armature_attack1.anim using Guid(2ec635d550c3d284f8459a1e0f91d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4997ca283c773fb9b73774b02789f77') in 0.043766 seconds
+  Import took 0.054410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.527281 seconds.
+  path: Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/Attack.anim
+  artifactKey: Guid(2ec635d550c3d284f8459a1e0f91d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/Attack.anim using Guid(2ec635d550c3d284f8459a1e0f91d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56ff1c8eea83592d2c8c4ec1538a374') in 0.037852 seconds
+  Import took 0.053936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011793 seconds.
+  path: Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/Attack.anim
+  artifactKey: Guid(2ec635d550c3d284f8459a1e0f91d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/True_Horror_Creatures/Horror_creature6_v1.0/Attack.anim using Guid(2ec635d550c3d284f8459a1e0f91d154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56ff1c8eea83592d2c8c4ec1538a374') in 0.041687 seconds
+  Import took 0.051169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.709871 seconds.
+  path: Assets/Scripts/Managers
+  artifactKey: Guid(d1fc56e380227214dae6a25304925b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers using Guid(d1fc56e380227214dae6a25304925b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b557c04cab1ae0fca8f287674382b5') in 0.039544 seconds
+  Import took 0.051769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.303921 seconds.
+  path: Assets/Scripts/Level Scripts/GlobalHealth.cs
+  artifactKey: Guid(9b1b089b7c913054b886b31ae9ef0396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/GlobalHealth.cs using Guid(9b1b089b7c913054b886b31ae9ef0396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76a7ae98555af9830af40d60c3b68f4') in 0.024427 seconds
+  Import took 0.034726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001020 seconds.
+  path: Assets/Scripts/Level Scripts/GlobalHealth.cs
+  artifactKey: Guid(9b1b089b7c913054b886b31ae9ef0396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/GlobalHealth.cs using Guid(9b1b089b7c913054b886b31ae9ef0396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76a7ae98555af9830af40d60c3b68f4') in 0.017002 seconds
+  Import took 0.030063 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.506 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2863.
+Total: 5.140400 ms (FindLiveObjects: 0.518000 ms CreateObjectMapping: 0.150000 ms MarkObjects: 4.261300 ms  DeleteObjects: 0.208100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.723 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2316 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.3 MB.
-System memory in use after: 194.5 MB.
+Unloading 2323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.3 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2893.
-Total: 6.767500 ms (FindLiveObjects: 0.502400 ms CreateObjectMapping: 0.151400 ms MarkObjects: 5.862400 ms  DeleteObjects: 0.247100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.981342 seconds.
-  path: Assets/Plugins/Zombie/Animations/Z_Walk_InPlace 1.anim
-  artifactKey: Guid(b3578abe588240b42accc073d81de10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Z_Walk_InPlace 1.anim using Guid(b3578abe588240b42accc073d81de10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf5662048747d18efc520cd7c900fd0') in 0.075119 seconds
-  Import took 0.086606 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2866.
+Total: 5.564200 ms (FindLiveObjects: 0.598300 ms CreateObjectMapping: 0.178400 ms MarkObjects: 4.588500 ms  DeleteObjects: 0.196600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.494014 seconds.
-  path: Assets/Plugins/Zombie/Animations/Walk_InPlace.anim
-  artifactKey: Guid(b3578abe588240b42accc073d81de10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Walk_InPlace.anim using Guid(b3578abe588240b42accc073d81de10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fe924a6d60dce0a87251b54265220f') in 0.040975 seconds
-  Import took 0.052205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012451 seconds.
-  path: Assets/Plugins/Zombie/Animations/Walk_InPlace.anim
-  artifactKey: Guid(b3578abe588240b42accc073d81de10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Walk_InPlace.anim using Guid(b3578abe588240b42accc073d81de10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fe924a6d60dce0a87251b54265220f') in 0.034192 seconds
-  Import took 0.045645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.121627 seconds.
-  path: Assets/Plugins/Zombie/Animations/Walk.anim
-  artifactKey: Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zombie/Animations/Walk.anim using Guid(cf31ccd6e41326145aa4ee3c424911a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a50e3a4048f879080b2c862786aafa5') in 0.042161 seconds
-  Import took 0.054362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.538388 seconds.
-  path: Assets/Animations/Zombie
-  artifactKey: Guid(d73e2c7e07fc4034bb521a8ede2d9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Zombie using Guid(d73e2c7e07fc4034bb521a8ede2d9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a257e418e63d07d55f5ff9e35b27210') in 0.021132 seconds
-  Import took 0.030944 seconds .
+  Time since last request: 114.812509 seconds.
+  path: Assets/Scripts/Level Scripts/GlobalHealth.cs
+  artifactKey: Guid(9b1b089b7c913054b886b31ae9ef0396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Level Scripts/GlobalHealth.cs using Guid(9b1b089b7c913054b886b31ae9ef0396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5ad07cb8ae895f44b52bda501db5f2') in 0.020334 seconds
+  Import took 0.029733 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003591 seconds.
+Registered in 0.003870 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.626 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2316 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.3 MB.
-System memory in use after: 194.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2896.
-Total: 5.666400 ms (FindLiveObjects: 0.544900 ms CreateObjectMapping: 0.187100 ms MarkObjects: 4.687300 ms  DeleteObjects: 0.242500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003736 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.552 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2316 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.3 MB.
-System memory in use after: 194.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2899.
-Total: 8.227200 ms (FindLiveObjects: 0.753300 ms CreateObjectMapping: 0.265800 ms MarkObjects: 7.019800 ms  DeleteObjects: 0.185300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004207 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.668 seconds
+- Completed reload, in  2.612 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2316 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 194.3 MB.
-System memory in use after: 194.5 MB.
+Unloading 2323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2902.
-Total: 7.955300 ms (FindLiveObjects: 0.926400 ms CreateObjectMapping: 0.311300 ms MarkObjects: 6.501000 ms  DeleteObjects: 0.212400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3540.186172 seconds.
-  path: Assets/Prefabs/Monster/Poses
-  artifactKey: Guid(b352ba31dacdf06439866c5a1959c134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses using Guid(b352ba31dacdf06439866c5a1959c134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd15ffb201697505cb0b108bdab643f') in 0.070361 seconds
-  Import took 0.082130 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2869.
+Total: 5.958100 ms (FindLiveObjects: 0.988000 ms CreateObjectMapping: 0.179200 ms MarkObjects: 4.580600 ms  DeleteObjects: 0.206800 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 15.457530 seconds.
-  path: Assets/Prefabs/Monster/Poses/Idle.fbx
-  artifactKey: Guid(1f2ba06febfc1bd41a4bdcaf7642dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Idle.fbx using Guid(1f2ba06febfc1bd41a4bdcaf7642dc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378a8fe5eff28c9d49baf784f35639eb') in 1.348157 seconds
-  Import took 1.360748 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.763 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2872.
+Total: 5.792000 ms (FindLiveObjects: 0.551500 ms CreateObjectMapping: 0.152100 ms MarkObjects: 4.877800 ms  DeleteObjects: 0.207300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 17.769103 seconds.
-  path: Assets/Prefabs/Monster/Poses/Idle.mp4
-  artifactKey: Guid(21abb96942c6ab849b5d3246a473c409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Idle.mp4 using Guid(21abb96942c6ab849b5d3246a473c409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b93a02c6874057370ebadc73f83eb1c') in 0.056558 seconds
-  Import took 0.067725 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.611 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2323 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 196.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 10.490453 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk.fbx
-  artifactKey: Guid(066969eb794e4854d9722f390c6a3ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk.fbx using Guid(066969eb794e4854d9722f390c6a3ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1347b325739239f525db0b1e5ca1dc3a') in 0.344115 seconds
-  Import took 0.356207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.883079 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk.mp4
-  artifactKey: Guid(744ae83385a362942a7647af2717e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk.mp4 using Guid(744ae83385a362942a7647af2717e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78318128d24c7ba43fdd5a57a11dfb9c') in 0.014593 seconds
-  Import took 0.024660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.877409 seconds.
-  path: Assets/Prefabs/Monster/Poses/UnityTexture
-  artifactKey: Guid(dccf5edea36077944806393a56a8b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/UnityTexture using Guid(dccf5edea36077944806393a56a8b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f7cd923c0a86b1cd16b05a5b711d24') in 0.098204 seconds
-  Import took 0.111184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 132.449981 seconds.
-  path: Assets/Prefabs/Enemies/Monster.prefab
-  artifactKey: Guid(adda66499c66f5042ad2922bd5d6543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Monster.prefab using Guid(adda66499c66f5042ad2922bd5d6543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0f7d643db3538fa09f25c8a51f40e1') in 0.163010 seconds
-  Import took 0.173761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.597072 seconds.
-  path: Assets/Prefabs/Monster
-  artifactKey: Guid(63600be7f3bac7045812ccd968215e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster using Guid(63600be7f3bac7045812ccd968215e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b4b931293873fa828957f2ba2400cb') in 0.043847 seconds
-  Import took 0.058655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.733454 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbx
-  artifactKey: Guid(1dbecf323a9fe6449b982dab1dbb40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbx using Guid(1dbecf323a9fe6449b982dab1dbb40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b5c4cce3c87cf871b25ceb8247c387') in 0.145352 seconds
-  Import took 0.157376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 145.345535 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbx
-  artifactKey: Guid(1dbecf323a9fe6449b982dab1dbb40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbx using Guid(1dbecf323a9fe6449b982dab1dbb40db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbabbb0dc46c4b344294c6f878203127') in 0.227286 seconds
-  Import took 0.239813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.002459 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk.anim
-  artifactKey: Guid(39a2c18a8b2440e4d8f0ec229c2c52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk.anim using Guid(39a2c18a8b2440e4d8f0ec229c2c52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370cea9c0cbb33b67410a5f00c0b5301') in 0.055927 seconds
-  Import took 0.066546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.229171 seconds.
-  path: Assets/Prefabs/Monster/Poses/Creature1.mesh
-  artifactKey: Guid(041383f6af009ac48b638af3601c933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Creature1.mesh using Guid(041383f6af009ac48b638af3601c933f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d3727ee1c9dd0f298044086fa1dcf9') in 0.074237 seconds
-  Import took 0.082466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 454.637749 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbm
-  artifactKey: Guid(255007c8b1c554648b03d64f03eac84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbm using Guid(255007c8b1c554648b03d64f03eac84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba887bdb83c4d1cb3b7b9dc099b12a3') in 0.057369 seconds
-  Import took 0.069913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.861512 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbx
-  artifactKey: Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbx using Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548615148ec6e93787ea3277118106bc') in 0.166775 seconds
-  Import took 0.178196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.768196 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbx
-  artifactKey: Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbx using Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730a4e9ae9df8365aedcdacbc0f8a12e') in 0.152744 seconds
-  Import took 0.164144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.812165 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbx
-  artifactKey: Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbx using Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97207c78e78f59cb116830c8a523c7ac') in 0.148613 seconds
-  Import took 0.159263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.609701 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbx
-  artifactKey: Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbx using Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce71c4e3bf303e588e06bc08e1dee253') in 0.138333 seconds
-  Import took 0.150950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.790700 seconds.
-  path: Assets/Prefabs/Monster/Poses/Walk 1.fbx
-  artifactKey: Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Monster/Poses/Walk 1.fbx using Guid(cfec194ffa4ef724491e1e369f28aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc43ce99f9a77dcaa267b2406a399adb') in 0.164862 seconds
-  Import took 0.176458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 126.814802 seconds.
-  path: Assets/Prefabs/Enemies/Monster.prefab
-  artifactKey: Guid(adda66499c66f5042ad2922bd5d6543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Monster.prefab using Guid(adda66499c66f5042ad2922bd5d6543b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7284650fc838dcb4c3180547971e55') in 0.192622 seconds
-  Import took 0.206226 seconds .
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2875.
+Total: 5.960300 ms (FindLiveObjects: 0.924200 ms CreateObjectMapping: 0.317200 ms MarkObjects: 4.507700 ms  DeleteObjects: 0.208300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

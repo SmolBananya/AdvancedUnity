@@ -56,12 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Plugins\True_Horror_Creatures\Horror_creature6_v1.0\Script\THC6_ctrl.cs" />
+    <Compile Include="Assets\Plugins\LB3D\CrabMonster\LB3DGameManager.cs" />
     <Compile Include="Assets\Plugins\FirstPersion AIO Pack\FirstPersonAIO\FirstPersonAIO.cs" />
+    <Compile Include="Assets\Plugins\LB3D\CrabMonster\Scripts\Rikayon.cs" />
     <Compile Include="Assets\Plugins\FirstPersion AIO Pack\DemoScene\MiscScripts\Doors.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Plugins\FirstPersion AIO Pack\DemoScene\Working Materials\GlassBumpedDistort.shader" />
      <None Include="Assets\Plugins\FirstPersion AIO Pack\README.txt" />
+     <None Include="Assets\Plugins\LB3D\CrabMonster\DOCUMENTATION.txt" />
+     <None Include="Assets\Plugins\True_Horror_Creatures\Horror_creature6_v1.0\THC6_readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\2020.3.0f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
     </Reference>
