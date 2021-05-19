@@ -9,6 +9,10 @@ public class EnemyAI : MonoBehaviour
     public float EnemySpeed = 0.01f;
     public bool AttackTrigger = false;
     public bool isAttacking = false;
+    public AudioSource hurtSound1;
+    public AudioSource hurtSound2;
+    public AudioSource hurtSound3;
+    public int hurtGen;
 
     void Update()
     {
@@ -44,6 +48,21 @@ public class EnemyAI : MonoBehaviour
         isAttacking = true;
         yield return new WaitForSeconds(1.5f);
         GlobalHealth.currentHealth -= 5;
+        hurtGen = Random.Range(1, 4);
+
+        if(hurtGen == 1)
+        {
+            hurtSound1.Play();
+        }
+        if (hurtGen == 2)
+        {
+            hurtSound2.Play();
+        }
+        if (hurtGen == 3)
+        {
+            hurtSound3.Play();
+        }
+
         yield return new WaitForSeconds(0.2f);
         isAttacking = false;
     }

@@ -1654,7 +1654,7 @@ GameObject:
   - component: {fileID: 1551910550999733173}
   - component: {fileID: 860479516}
   - component: {fileID: 860479514}
-  - component: {fileID: 8700765503200045044}
+  - component: {fileID: 860479515}
   m_Layer: 0
   m_Name: crab-monster 1
   m_TagString: Untagged
@@ -1722,11 +1722,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11242838ae96d3d459e0fee1ebf287c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyHealth: 20
+  EnemyHealth: 10
   Enemy: {fileID: 1551910549523039339}
   StatusCheck: 0
   JumpScare: {fileID: 0}
---- !u!114 &8700765503200045044
+--- !u!114 &860479515
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1743,6 +1743,10 @@ MonoBehaviour:
   EnemySpeed: 0.01
   AttackTrigger: 0
   isAttacking: 0
+  hurtSound1: {fileID: 0}
+  hurtSound2: {fileID: 0}
+  hurtSound3: {fileID: 0}
+  hurtGen: 0
 --- !u!1 &1551910549523039341
 GameObject:
   m_ObjectHideFlags: 0
