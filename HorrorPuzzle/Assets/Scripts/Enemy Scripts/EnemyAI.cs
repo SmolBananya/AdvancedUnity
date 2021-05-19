@@ -13,6 +13,7 @@ public class EnemyAI : MonoBehaviour
     public AudioSource hurtSound2;
     public AudioSource hurtSound3;
     public int hurtGen;
+    public GameObject HurtFlash;
 
     void Update()
     {
@@ -46,11 +47,9 @@ public class EnemyAI : MonoBehaviour
     IEnumerator InflictDamage()
     {
         isAttacking = true;
-        yield return new WaitForSeconds(1.5f);
-        GlobalHealth.currentHealth -= 5;
         hurtGen = Random.Range(1, 4);
 
-        if(hurtGen == 1)
+        if (hurtGen == 1)
         {
             hurtSound1.Play();
         }
@@ -63,7 +62,12 @@ public class EnemyAI : MonoBehaviour
             hurtSound3.Play();
         }
 
-        yield return new WaitForSeconds(0.2f);
+        HurtFlash.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        HurtFlash.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        GlobalHealth.currentHealth -= 5;
+        yield return new WaitForSeconds(0.9f);
         isAttacking = false;
     }
 

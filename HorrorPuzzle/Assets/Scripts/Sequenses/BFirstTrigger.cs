@@ -12,7 +12,8 @@ public class BFirstTrigger : MonoBehaviour
 	public GameObject FirstTrigger;
 
 
-	void OnTriggerEnter() { 
+	void OnTriggerEnter() {
+		this.GetComponent<BoxCollider>().enabled = false;
 		Player.SetActive(false);
 		StartCoroutine(ScenePlayer());
 		//Camera.SetActive(false);
@@ -27,7 +28,7 @@ public class BFirstTrigger : MonoBehaviour
 		Player.SetActive(true);
 		TheMarker.SetActive(true);
 		//Camera.SetActive(true);
-		FirstTrigger.GetComponent<BoxCollider>().enabled = false;
+		//FirstTrigger.GetComponent<BoxCollider>().enabled = false;
 
 
 	}

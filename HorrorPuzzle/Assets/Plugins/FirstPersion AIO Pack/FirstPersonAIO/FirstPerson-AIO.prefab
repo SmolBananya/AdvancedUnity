@@ -301,7 +301,6 @@ GameObject:
   - component: {fileID: 1368576134}
   - component: {fileID: 1368576133}
   - component: {fileID: 1368576132}
-  - component: {fileID: 1368576131}
   - component: {fileID: 1368576135}
   m_Layer: 0
   m_Name: MuzzleFlash
@@ -374,20 +373,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1368576131
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1368576130}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!111 &1368576135
 Animation:
   m_ObjectHideFlags: 0
@@ -445,7 +430,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a24a4668d3b30ce48b6b16fb701f126f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8a58ddc4ae3cf7942902bedfd1b021ba, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

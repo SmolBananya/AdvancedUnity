@@ -6,7 +6,7 @@ public class JumpTrigger : MonoBehaviour
 {
     public AudioSource DoorBang;
     public AudioSource DoorJumpMusic;
-    public GameObject Zombie;
+    public GameObject Enemy;
     public GameObject Door;
     public GameObject Lamp;
 
@@ -16,7 +16,7 @@ public class JumpTrigger : MonoBehaviour
         GetComponent<BoxCollider>().enabled = false;
         Door.GetComponent<Animation>().Play("JumpDoorAnim");
         DoorBang.Play();
-        Zombie.SetActive(true);
+        Enemy.SetActive(true);
         Lamp.SetActive(true);
         StartCoroutine(PlayJumpMusic());
     }
