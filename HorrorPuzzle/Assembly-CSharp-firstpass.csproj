@@ -66,6 +66,7 @@
      <None Include="Assets\Plugins\FirstPersion AIO Pack\DemoScene\Working Materials\GlassBumpedDistort.shader" />
      <None Include="Assets\Plugins\FirstPersion AIO Pack\README.txt" />
      <None Include="Assets\Plugins\LB3D\CrabMonster\DOCUMENTATION.txt" />
+     <None Include="Assets\Plugins\SkySerie Freebie\Hdri setup.txt" />
      <None Include="Assets\Plugins\True_Horror_Creatures\Horror_creature6_v1.0\THC6_readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\2020.3.0f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

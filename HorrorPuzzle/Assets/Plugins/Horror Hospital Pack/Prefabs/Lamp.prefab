@@ -43,7 +43,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.8800456, b: 0.56037736, a: 1}
-  m_Intensity: 2.8
+  m_Intensity: 1.5
   m_Range: 9.111757
   m_SpotAngle: 164
   m_InnerSpotAngle: 157.8725
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 452254}
   - component: {fileID: 10854756}
-  - component: {fileID: 1462872058}
+  - component: {fileID: 273056591}
   m_Layer: 0
   m_Name: Point light (3)
   m_TagString: Untagged
@@ -220,7 +220,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.8913163, b: 0.60754716, a: 1}
-  m_Intensity: 0.24
+  m_Intensity: 0.1
   m_Range: 9.111757
   m_SpotAngle: 164
   m_InnerSpotAngle: 157.8725
@@ -270,7 +270,7 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0.1
   m_ShadowAngle: 0
---- !u!95 &1462872058
+--- !u!95 &273056591
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

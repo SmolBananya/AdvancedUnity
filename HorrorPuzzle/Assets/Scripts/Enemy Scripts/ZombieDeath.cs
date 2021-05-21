@@ -8,6 +8,8 @@ public class ZombieDeath : MonoBehaviour
     public GameObject Enemy;
     public int StatusCheck;
     public AudioSource JumpScare;
+    public AudioSource AmbMusic;
+
 
     void DamageZombie(int DamageAmount)
     {
@@ -27,6 +29,7 @@ public class ZombieDeath : MonoBehaviour
             Enemy.GetComponent<Animation>().Stop("Walk");
             Enemy.GetComponent<Animation>().Play("Die");
             JumpScare.Stop();
+            AmbMusic.Play();
         }
     }
 }

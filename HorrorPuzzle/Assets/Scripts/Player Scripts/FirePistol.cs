@@ -13,10 +13,11 @@ public class FirePistol : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && GlobalAmmo.ammoCount >= 1)
         {
             if (IsFiring == false)
             {
+                GlobalAmmo.ammoCount -= 1;
                 StartCoroutine(FiringPistol());
             }
         }

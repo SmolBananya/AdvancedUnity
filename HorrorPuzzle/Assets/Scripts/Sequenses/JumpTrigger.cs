@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class JumpTrigger : MonoBehaviour
 {
-    public AudioSource DoorBang;
+    public AudioSource DoorBang; 
+    public AudioSource AmbMusic;
     public AudioSource DoorJumpMusic;
     public GameObject Enemy;
     public GameObject Door;
@@ -24,6 +25,7 @@ public class JumpTrigger : MonoBehaviour
     IEnumerator PlayJumpMusic()
     {
         yield return new WaitForSeconds(0.4f);
+        AmbMusic.Stop();
         DoorJumpMusic.Play();
     }
 }
