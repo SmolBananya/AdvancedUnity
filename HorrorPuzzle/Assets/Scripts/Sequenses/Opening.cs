@@ -10,7 +10,6 @@ public class Opening : MonoBehaviour
 	public GameObject TextBox;
 	public GameObject Camera;
 
-
 	void Start()
 	{
 		//ThePlayer.GetComponent<FirstPersonAIO>().enabled = false;
@@ -25,7 +24,7 @@ public class Opening : MonoBehaviour
 		TextBox.GetComponent<Text>().text = "Where am I?";
 		yield return new WaitForSeconds(2);
 		TextBox.GetComponent<Text>().text = " ";
-		yield return new WaitForSeconds(1);
+		yield return new WaitForSeconds(0.5f);
 		TextBox.GetComponent<Text>().text = "I must get out of here.";
 		yield return new WaitForSeconds(2);
 		TextBox.GetComponent<Text>().text = " ";
