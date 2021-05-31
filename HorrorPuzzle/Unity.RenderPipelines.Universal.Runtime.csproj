@@ -62,8 +62,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\Overrides\Tonemapping.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\2D\Passes\Utility\Light2DLookupTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\2D\Light2D.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\RendererFeatures\ScreenSpaceAmbientOcclusion.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\Passes\DeferredPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\RendererFeatures\ScreenSpaceAmbientOcclusion.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\Overrides\DepthOfField.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\DeferredTiler.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\UniversalRenderPipelineCore.cs" />
@@ -73,9 +73,9 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\2D\Shadows\CompositeShadowCaster2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\Overrides\WhiteBalance.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\DeferredLights.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\2D\Passes\IRenderPass2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\RendererFeatures\RenderObjects.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\Passes\XROcclusionMeshPass.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\2D\Passes\IRenderPass2D.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\Overrides\ColorCurves.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\2D\Light2DPoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.universal@10.3.2\Runtime\External\LibTessDotNet\PriorityQueue.cs" />

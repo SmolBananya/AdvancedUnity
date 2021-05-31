@@ -87,8 +87,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Graphs\LightmappingShaderProperties.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Math\Matrix\MatrixDeterminantNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Views\ResizableElement.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\UV\ParallaxMappingNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Legacy\Edge0.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\UV\ParallaxMappingNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\ShaderGraphAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Inspector\WindowDockingLayout.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Importers\ShaderSubGraphMetadata.cs" />
@@ -329,9 +329,9 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\SearchWindowAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Graphs\ParentGroupChange.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Inspector\PropertyDrawers\CustomFunctionNodePropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Input\Texture\TexelSizeNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Procedural\Noise\SimpleNoiseNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Generation\Collections\DefineCollection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Input\Texture\TexelSizeNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Generation\TargetResources\FieldDependencies.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Utility\Logic\OrNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Util\CopyPasteGraph.cs" />
@@ -454,9 +454,9 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Controls\ColorControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Math\Interpolation\LerpNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Procedural\Shape\EllipseNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Generation\Processors\ShaderSpliceUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Controls\ToggleControl.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Views\Slots\BooleanSlotControlView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Generation\Processors\ShaderSpliceUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\UV\TwirlNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Views\ContextView.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Generation\Enumerations\Blend.cs" />
@@ -573,8 +573,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Manipulators\WindowDraggable.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Legacy\SpriteLitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Inspector\PropertyDrawers\IntegerPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Attributes\ContextFilterableAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Generation\Processors\ShaderGeneratorNames.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Attributes\ContextFilterableAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Util\StackPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\MaterialGraphPreviewGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Math\Trigonometry\ArcsineNode.cs" />
@@ -639,8 +639,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Graphs\SerializableVirtualTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Utility\Logic\AndNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Views\NodeSettingsView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Input\Basic\ColorNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Graphs\SamplerStateShaderProperty.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Input\Basic\ColorNode.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Resources\Shaders\BlitNoAlpha.shader" />

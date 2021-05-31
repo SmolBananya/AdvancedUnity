@@ -663,6 +663,10 @@
       <Project>{D687005D-A5BA-D2EE-477C-7DB054E7EFF3}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
+      <Project>{FEA66E01-46E6-47AE-C9C0-8DEA01C7E2EB}</Project>
+      <Name>Unity.Postprocessing.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{C369795E-BDE5-DACF-F826-A3F2C4A40BE3}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
@@ -703,6 +707,10 @@
       <Project>{F5952E1B-E366-25F3-1CBA-34314EA41E8E}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
+      <Project>{9D31A4A6-DB79-BFC0-25BA-72E0BA7F4884}</Project>
+      <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{1F82B6DC-8710-C237-30D3-561242E93B3F}</Project>
       <Name>UnityEditor.UI</Name>
@@ -726,14 +734,6 @@
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{EB2D6490-7B2F-22EE-7A71-750F41D79B62}</Project>
       <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
-      <Project>{9D31A4A6-DB79-BFC0-25BA-72E0BA7F4884}</Project>
-      <Name>Unity.Postprocessing.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
-      <Project>{FEA66E01-46E6-47AE-C9C0-8DEA01C7E2EB}</Project>
-      <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
