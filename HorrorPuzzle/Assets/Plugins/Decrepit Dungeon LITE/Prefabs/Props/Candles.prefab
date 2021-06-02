@@ -5057,7 +5057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LightMode: 0
-  FlameLight: {fileID: 0}
+  FlameLight: {fileID: 8510687629938325622}
 --- !u!1 &137290
 GameObject:
   m_ObjectHideFlags: 0

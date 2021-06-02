@@ -59,30 +59,25 @@
     <Compile Include="Assets\Scripts\Level Scripts\FlameAnimations.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\PickUpPistol.cs" />
     <Compile Include="Assets\Scripts\Sequenses\Opening.cs" />
+    <Compile Include="Assets\Scripts\Data\CreatureData.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FirePistol.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\ZombieDeath.cs" />
+    <Compile Include="Assets\Scripts\Data\WeaponData.cs" />
     <Compile Include="Assets\Scripts\Managers\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\WeaponSway.cs" />
     <Compile Include="Assets\Scripts\Sequenses\BFirstTrigger.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\GlobalAmmo.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\GlobalHealth.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\LampAnimations.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AmmoPickup.cs" />
+    <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
     <Compile Include="Assets\Scripts\Sequenses\JumpTrigger.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\DoorOpen.cs" />
-    <Compile Include="Assets\Scripts\Enemy Scripts\EnemyAI.cs" />
-    <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\Data\CreatureData.cs" />
-    <Compile Include="Assets\Scripts\Data\WeaponData.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\SoundEffect.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\WeaponSway.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\Weapon.cs" />
-    <Compile Include="Assets\Scripts\Managers\UIManager.cs" />
-    <Compile Include="Assets\Scripts\Enemy Scripts\IKillable.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Settings\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\Managers\LevelManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Prefabs\Monster\Poses\README.txt" />

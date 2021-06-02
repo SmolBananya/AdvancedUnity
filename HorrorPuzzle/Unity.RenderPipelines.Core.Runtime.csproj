@@ -128,8 +128,8 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Textures\RTHandleSystem.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Textures\TextureXR.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Textures\RTHandles.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerPersistentCanvas.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\RenderGraph\RenderGraphResources.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Debugging\Prefabs\Scripts\DebugUIHandlerPersistentCanvas.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Common\SerializedDictionary.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Textures\MSAASamples.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@10.3.2\Runtime\Utilities\SceneRenderPipeline.cs" />

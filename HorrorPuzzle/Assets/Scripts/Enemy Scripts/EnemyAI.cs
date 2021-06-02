@@ -21,8 +21,8 @@ public class EnemyAI : MonoBehaviour
 
         if(AttackTrigger == false)
         {
-            EnemySpeed = 0.01f;
-            Enemy.GetComponent<Animation>().Play("Walk");
+            EnemySpeed = 0.03f;
+            Enemy.GetComponent<Animation>().Play("Run");
             transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, EnemySpeed);
         }
 
