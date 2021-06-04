@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+
     void Start()
     {
         StartCoroutine(TakeToMenu());
@@ -15,5 +16,13 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds(7);
         SceneManager.LoadScene(1);
     }
+
+
+
+
+
+
+
+
 
 }
