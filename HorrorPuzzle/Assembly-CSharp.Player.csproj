@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Managers\Singleton.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\WeaponSway.cs" />
     <Compile Include="Assets\Scripts\Sequenses\BFirstTrigger.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\DungeonExitDoor.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\GlobalAmmo.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\GlobalHealth.cs" />
@@ -79,7 +80,8 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenuFunction.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\SoundEffect.cs" />
-    <Compile Include="Assets\Scripts\Level Scripts\DungeonExitDoor.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\RightEyePickUp.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\GlobalInventory.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Prefabs\Monster\Poses\README.txt" />
