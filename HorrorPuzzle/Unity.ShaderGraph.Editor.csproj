@@ -290,8 +290,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Enumerations\Precision.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Util\TypeMapping.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Artistic\Utility\ColorspaceConversion.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Manipulators\Draggable.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Graphs\VirtualTextureMaterialSlot.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Drawing\Manipulators\Draggable.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Graphs\IMaterialSlotHasValue.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Generation\Data\FieldCondition.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@10.3.2\Editor\Data\Nodes\Input\Geometry\UVNode.cs" />

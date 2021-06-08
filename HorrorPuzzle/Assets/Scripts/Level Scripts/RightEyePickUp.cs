@@ -11,6 +11,9 @@ public class RightEyePickUp : MonoBehaviour
     public GameObject RightEye;
     public GameObject ExtraCross;
 	public GameObject eyeLight;
+	public GameObject halfFade;
+	public GameObject eyeImg;
+	public GameObject eyeText;
 
 
 	void Update()
@@ -36,8 +39,8 @@ public class RightEyePickUp : MonoBehaviour
 				ActionText.SetActive(false);
 				ExtraCross.SetActive(false);
 				eyeLight.SetActive(false);
-				RightEye.SetActive(false);
-				GlobalInventory.firstDoorKey = true;
+				GlobalInventory.rightEye = true;
+				StartCoroutine(EyePickedUp());
 			}
 		}
 	}
@@ -48,5 +51,19 @@ public class RightEyePickUp : MonoBehaviour
 		ActionDisplay.SetActive(false);
 		ActionText.SetActive(false);
 	}
+
+	IEnumerator EyePickedUp()
+    {
+		halfFade.SetActive(true);
+		eyeImg.SetActive(true);
+		eyeText.SetActive(true);
+		yield return new WaitForSeconds(3.5f);
+		halfFade.SetActive(false);
+		eyeImg.SetActive(false);
+		eyeText.SetActive(false);
+		RightEye.SetActive(false);
+	}
+
+
 
 }

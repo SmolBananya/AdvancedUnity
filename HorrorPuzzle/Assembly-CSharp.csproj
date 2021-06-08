@@ -63,7 +63,9 @@
     <Compile Include="Assets\Scripts\Player Scripts\FirePistol.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\ZombieDeath.cs" />
     <Compile Include="Assets\Scripts\Data\WeaponData.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\RightEyePickUp.cs" />
     <Compile Include="Assets\Scripts\Managers\Singleton.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\GlobalInventory.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\WeaponSway.cs" />
     <Compile Include="Assets\Scripts\Sequenses\BFirstTrigger.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\DungeonExitDoor.cs" />
@@ -80,12 +82,13 @@
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenuFunction.cs" />
     <Compile Include="Assets\Scripts\Level Scripts\SoundEffect.cs" />
-    <Compile Include="Assets\Scripts\Level Scripts\RightEyePickUp.cs" />
-    <Compile Include="Assets\Scripts\Level Scripts\GlobalInventory.cs" />
+    <Compile Include="Assets\Scripts\Level Scripts\EyePlacement.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Prefabs\Monster\Poses\README.txt" />
      <None Include="Assets\UI\Controls.txt" />
+     <None Include="Assets\Audio\FX\eklee-KeyPresses-cc0-opengameart\license.txt" />
+     <None Include="Assets\Audio\FX\eklee-KeyPresses-cc0-opengameart\eklee-KeyPresses.txt" />
      <None Include="Assets\Prefabs\Monster\Colors\README.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\2020.3.0f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
